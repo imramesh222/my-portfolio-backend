@@ -22,7 +22,7 @@ db.sqlite3
 /static/
 /*.pot
 *.mo
-/requirements.txt/
+
 # VS Code, PyCharm, and IDEs
 .vscode/
 .idea/
