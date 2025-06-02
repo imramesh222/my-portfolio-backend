@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'api',
     'rest_framework',
-    'corsheaders',  # correct app name
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -57,13 +57,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:5173",
-# ]
+
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://your-frontend-domain.com",
+    "https://imrameshrawat.netlify.app",
     "http://localhost:3000",  # for local development
 ]
 
